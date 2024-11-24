@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    margin: 10px;
+    padding: 5px;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+
+}
+#homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.greetings {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+#greeting-subtitle {
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: small;
+}
+
+#cta {
+    display: flex;
+    text-align: center;
+}
+
+.main-title-headers {
+    color: blue;
+}
+
+#profile-image img {
+    width: 300px;
+    height: auto;
+    margin-left: 200px;
+    border-radius: 100%;
+}
+
+/* button styles*/
+
+#press-me-btn {
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+}
