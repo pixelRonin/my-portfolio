@@ -8,27 +8,170 @@
 </head>
 <body>
     <main>
-        <section>
+        <!--Homepage-->
+        <section class="container">
             <div id="homepage">
-                <div>
+                <div class="greetings-container">
                     <div class="greetings">
-                        <h1> Hi, I'm Colleone <br> a front-end developer</h1>
+                        <h1> Hi, I'm Colleone <br> a Front-end Developer</h1>
                     </div>
                     <div id="cta">
                         <div id="greeting-subtitle">
-                            <p>Get to know a bit more<br><p>me with this button</p> </p>
+                            <p>Want to know more about me? Let’s connect!</p>
                         </div>
                         <div class="greetings">
-                            <button id="press-me-btn">Press Me</button>
+                           <a href="#aboutme"><button id="press-me-btn">Get to Know Me</button></a> 
                         </div>
                     </div>
                 </div>
                 <div id="profile-image">
-                    <img src="imgs/My Profile/my-profile-image.jpg" alt="profile picture of colleone">
+                    <img src="imgs/My Profile/No Background.png" alt="profile picture of colleone">
                 </div> 
             </div>
         </section>
-        
+        <!--About Me-->
+        <section class="container">
+            <div class="section-title">
+                <div>
+                    <h2 id="aboutme">About Me</h2>
+                </div>
+                <div class="">
+                    <p>It is better to get to know me in person, don't you think?</p>
+                </div>
+            </div>
+            <div class="about-me">
+                <div class="personality">
+                    <h3>Personality</h3>
+                    <p>I’m a curious and creative problem-solver who thrives on bringing ideas to life through code. Whether it’s designing sleek user interfaces or learning the latest tech trends, I’m always eager to dive in and explore. Patience, persistence, and a sense of humor are my go-to tools for tackling challenges and turning concepts into reality.</p>
+                </div>
+                <div class="funfact">
+                    <h3>Fun Fact</h3>
+                    <p>I have a superpower: I can stare at code for hours and still miss a semicolon!</p>
+                </div>
+            </div>
+        </section>
+        <!--My Skills-->
+        <section class="container">
+            <div class="section-title">
+                <div>
+                    <h2>My Skills</h2>
+                </div>
+                <div>
+                    <p>Can I fix it? Yes, yes I can.</p>
+                </div> 
+            </div>
+            <div class="skills-container">
+                <!--Skill One-->
+                <div class="skill">
+                    <div class="skill-icon">
+                        <img src="imgs/html-1.svg" alt="skill-icon">
+                    </div>
+                    <div class="skill-title">
+                        <p>Hypertext Markup Language</p>
+                    </div>
+                    <div class="skill-description">
+                        <p>With an intermediate understanding of HTML, I structure webpages to display content clearly and efficiently, ensuring accessibility and SEO-friendly code.</p>
+                    </div>
+                </div>
+                <!--Skill Two-->
+                <div class="skill">
+                    <div class="skill-icon">
+                        <img src="imgs/css-3.svg" alt="skill-icon">
+                    </div>
+                    <div class="skill-title">
+                        <p>Cascading Stylesheet</p>
+                    </div>
+                    <div class="skill-description">
+                        <p>I have an intermediate grasp of CSS, using it to style and layout webpages, creating visually appealing and responsive designs.</p>
+                    </div>
+                </div>
+                <!--Skill Three-->
+                <div class="skill">
+                    <div class="skill-icon">
+                        <img src="imgs/javascript-1.svg" alt="skill-icon">
+                    </div>
+                    <div class="skill-title">
+                        <p>Javascript</p>
+                    </div>
+                    <div class="skill-description">
+                        <p>I'm currently learning JavaScript, and while it’s not yet implemented on this site, I’m excited to use it to add interactivity in the future.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--My Projects-->
+        <section class="container">
+            <div class="section-title">
+                <div>
+                    <h2>My Projects</h2>
+                </div>
+                <div>
+                    <p>These are some of the projects I have worked on.</p>
+                </div>
+                
+            </div>
+            <div class="project-container">
+                <!--Project 1-->
+                <div class="project"> 
+                    <div class="project-icon">
+                        <img src="imgs/head-side-svgrepo-com.svg" alt="project-icon">
+                    </div>
+                    <div class="project-title">
+                        <h3>My Portfolio Website</h3>
+                    </div>
+                    <div class="project-status">
+                        <p>Ongoing</p>
+                    </div>
+                    <div class="project-description">
+                        <p>A portfolio website hosted on GitHub to showcase my work and provide a link to my CV for easy access to my qualifications and projects.</p>
+                    </div>
+                    <div class="github">
+                        <a href="https://github.com/pixelRonin/my-portfolio.git">Source Code</a>
+                    </div>
+                </div>
+                <!--Project 2-->
+                <div class="project"> 
+                    <div class="project-icon">
+                        <img src="imgs/bookmark-plus-svgrepo-com.svg" alt="project-icon">
+                    </div>
+                    <div class="project-title">
+                        <h3>Passport Plus</h3>
+                    </div>
+                    <div class="project-status">
+                        <p>Ongoing</p>
+                    </div>
+                    <div class="project-description">
+                        <p>Created a Passport Information Processing System as my final year project to streamline application and verification with efficient data management</p>
+                    </div>
+                    <div class="github">
+                        <a href="https://github.com/pixelRonin/passportplus.git">Source Code</a>
+                    </div>
+                </div>
+                <!--Project 3-->
+                <div class="project"> 
+                    <div class="project-icon">
+                        <img src="imgs/rocket-svgrepo-com.svg" alt="project-icon">
+                    </div>
+                    <div class="project-title">
+                        <h3>Coding and Robotics Landing Page</h3>
+                    </div>
+                    <div class="project-status">
+                        <p>Ongoing</p>
+                    </div>
+                    <div class="project-description">
+                        <p>Developing a landing page for the Coding and Robotics Club at Divine Word University to showcase events, projects, and club activities</p>
+                    </div>
+                    <div class="github">
+                        <a href="https://github.com/pixelRonin/C-R.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; 2024 Colleone Faunt Lapun. All Rights Reserved.</p>
+    <p>Designed and built with passion. <a href="mailto:clapun17@gmail.com">Contact Me</a></p>
+            </footer>
+        </section>
     </main>
+    
 </body>
 </html>
